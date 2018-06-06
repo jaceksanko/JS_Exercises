@@ -1,0 +1,23 @@
+#carousel { width: 750px; height: 500px; border: 2px solid black; overflow: hidden; margin: 0 auto; position: relative; }
+
+#carousel ul { list-style-type: none; margin: 0; padding: 0; width: 3750px; }
+
+#carousel img { width: 750px; height: 500px; }
+
+#carousel li { list-style: none; width: 750px; height: 500px; float: left; }
+
+#btn-right, #btn-left { position: absolute; font-size: 5em; color: white; }
+
+#btn-right:hover, #btn-left:hover { cursor: pointer; }
+
+#btn-right { right: 20px; top: 180px; width: 40px; height: 40px; border: 1px solid white; border-width: 3px 3px 0 0; transform: rotate(45deg); }
+
+#btn-left { left: 20px; top: 180px; width: 40px; height: 40px; border: 1px solid white; border-width: 3px 0 0 3px; transform: rotate(-45deg); }
+
+.circle { text-align: center; position: absolute; width: 100%; bottom: 0; }
+
+.btn-circle { cursor: pointer; background-color: inherit; border: 1px solid white; border-radius: 50%; height: 12px; width: 12px; margin-bottom: 10px; margin-left: 5px; }
+
+.btn-circle:focus { outline: none; }
+
+.active { background-color: black; border-color: black; }
